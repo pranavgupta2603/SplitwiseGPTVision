@@ -1,0 +1,10 @@
+/env
+/Splitwise_files
+/.env
+/*.mp4
+/*.mov
+/*.html
+/*.pdf
+/*.jpg
+/__pycache__
+/.DS_Store
