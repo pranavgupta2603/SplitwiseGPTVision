@@ -3,7 +3,7 @@
 
 ## Introduction 📖
 
-SplitwiseGPT Vision is an innovative web application designed to simplify bill splitting using advanced image processing and AI technologies. Built with Streamlit, it allows users to upload bill images and efficiently processes them to extract and interpret bill details.
+SplitwiseGPT Vision is an innovative web application designed to simplify bill splitting using advanced image processing, OCR technologies, and AI. Built with Streamlit, it combines the power of Pytesseract and GPT-4 vision for image processing and OCR, and utilizes the Splitwise API for splitting bills and adding them to groups.
 
 ## Installation 🛠️
 
@@ -20,6 +20,14 @@ SplitwiseGPT Vision is an innovative web application designed to simplify bill s
    pip install -r requirements.txt
    ```
 
+
+## Configuration 🔧
+
+Before running the application, you need to set up your environment variables. Use the `example.env` file as a template:
+
+1. Rename `example.env` to `.env`.
+2. Add your specific keys for the Splitwise API and other necessary configurations as shown in the `.env` file.
+
 ## Usage 🖥️
 
 1. Run the Streamlit application:
@@ -34,7 +42,7 @@ SplitwiseGPT Vision is an innovative web application designed to simplify bill s
 
 - **Streamlit**: For creating the web application interface.
 - **Pandas & NumPy**: For data manipulation and numerical computations.
-- **OpenCV & Pillow**: For image processing tasks.
+- **OpenCV**: For image processing tasks.
 - **Pytesseract**: For optical character recognition (OCR).
 - **OpenAI**: Integrating AI models for interpreting bill images.
 
