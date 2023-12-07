@@ -2,7 +2,7 @@ from splitwise import Splitwise
 from splitwise.expense import Expense
 from splitwise.user import ExpenseUser
 from splitwise.group import Group
-from dotenv import dontenv_values
+from dotenv import dotenv_values
 
 x = dotenv_values(".env")
 SPLITWISE_CONSUMER_KEY = x['SPLITWISE_CONSUMER_KEY']
