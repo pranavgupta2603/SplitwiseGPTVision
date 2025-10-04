@@ -13,7 +13,7 @@ SplitwiseGPT Vision is an innovative web application designed to simplify bill s
    ```
 2. Navigate to the project directory:
    ```
-   cd splitwisegpt-vision
+   cd SplitwiseGPTVision
    ```
 3. Install dependencies:
    ```
