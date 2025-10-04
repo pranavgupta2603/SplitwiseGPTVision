@@ -9,7 +9,7 @@ SplitwiseGPT Vision is an innovative web application designed to simplify bill s
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/splitwisegpt-vision.git
+   git clone https://github.com/pranavgupta2603/SplitwiseGPTVision.git
    ```
 2. Navigate to the project directory:
    ```
